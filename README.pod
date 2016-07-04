@@ -52,6 +52,7 @@ Like rakudo's own C<Distribution>, but with an additional requirement, I<ls-file
 the setting of C<$!meta{files}> for C<Distribution::Common>
 
 =head4 B<Distribution::IO::Proc::Tar>
+
 =head4 B<Distribution::IO::Proc::Git>
 
 Extract a single file from a distribution to memory. When C<CompUnitRepository::Installation::Install.install> accesses
