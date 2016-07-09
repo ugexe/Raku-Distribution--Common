@@ -11,7 +11,9 @@ rely on a specific file system directory layout before being installed.
 
 =head3 Synopsis
 
-    use Distribution::Common;
+    use Distribution::Common::Git;
+    use Distribution::Common::Tar;
+    use Distribution::Common::Directory;
 
     # a local path with a .git folder
     my $git-dist = Distribution::Common::Git.new($path.IO, :$force);
