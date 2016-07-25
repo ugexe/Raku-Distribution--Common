@@ -10,7 +10,7 @@ But really this serves to provide examples on how to create your own C<Distribut
 rely on a specific file system directory layout before being installed.
 
 =for HTML <a href="https://travis-ci.org/ugexe/Perl6-Distribution--Common"><img src="https://travis-ci.org/ugexe/Perl6-Distribution--Common.svg?branch=master"></a>
-          <a href="https://ci.appveyor.com/project/ugexe/Perl6-Distribution--Common/branch/master"><img src="https://ci.appveyor.com/api/projects/status/github/ugexe/Perl6-Distribution--Common?branch=master&passingText=Windows%20-%20OK&failingText=Windows%20-%20FAIL&pendingText=Windows%20-%20pending&svg=true"></a>
+          <a href="https://ci.appveyor.com/project/ugexe/perl6-distribution-common/branch/master"><img src="https://ci.appveyor.com/api/projects/status/github/ugexe/Perl6-Distribution--Common?branch=master&passingText=Windows%20-%20OK&failingText=Windows%20-%20FAIL&pendingText=Windows%20-%20pending&svg=true"></a>
 
 =head3 Synopsis
 
