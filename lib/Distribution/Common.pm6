@@ -20,7 +20,9 @@ role Distribution::Common does Distribution {
             my $json = $.slurp-rest($meta-basename, :!bin);
             my %hash = %( Rakudo::Internals::JSON.from-json($json) );
             %hash<files> = self.ls-files.grep(*.starts-with('bin/' | 'resources/'))
-                                        .grep(!*.ends-with('/')).cache;
+                                        .grep(!*.ends-with('/'))
+                                        .map({ $_ => $_ })
+                                        .hash;
             %hash
         }
     }
