@@ -17,6 +17,6 @@ install:
 build: off
 
 test_script:
-    - prove -v -e "perl6 -I." t/
+    - prove --ext .rakutest -v -e "raku -I." t/
 
 shallow_clone: true

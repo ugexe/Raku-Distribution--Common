@@ -28,4 +28,4 @@ install:
     - perl6 -v
 
 script:
-    - prove -v -e 'perl6 -I.' t/
+    - prove --ext .rakutest -v -e "raku -I." t/
