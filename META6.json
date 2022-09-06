@@ -1,5 +1,4 @@
 {
-    "perl"        : "6.c",
     "name"        : "Distribution::Common",
     "api"         : "0",
     "version"     : "0.0.2",
@@ -8,18 +7,19 @@
     "description" : "Create an installable Distribution from common sources",
     "license" : "Artistic-2.0",
     "provides"    : {
-        "Distribution::Common"              : "lib/Distribution/Common.pm6",
-        "Distribution::Common::Directory"   : "lib/Distribution/Common/Directory.pm6",
-        "Distribution::Common::Git"         : "lib/Distribution/Common/Git.pm6",
-        "Distribution::Common::Tar"         : "lib/Distribution/Common/Tar.pm6",
-        "Distribution::IO"                  : "lib/Distribution/IO.pm6",
-        "Distribution::IO::Directory"       : "lib/Distribution/IO/Directory.pm6",
-        "Distribution::IO::Proc::Git"       : "lib/Distribution/IO/Proc/Git.pm6",
-        "Distribution::IO::Proc::Tar"       : "lib/Distribution/IO/Proc/Tar.pm6"
+        "Distribution::Common"              : "lib/Distribution/Common.rakumod",
+        "Distribution::Common::Directory"   : "lib/Distribution/Common/Directory.rakumod",
+        "Distribution::Common::Git"         : "lib/Distribution/Common/Git.rakumod",
+        "Distribution::Common::Tar"         : "lib/Distribution/Common/Tar.rakumod",
+        "Distribution::IO"                  : "lib/Distribution/IO.rakumod",
+        "Distribution::IO::Directory"       : "lib/Distribution/IO/Directory.rakumod",
+        "Distribution::IO::Proc::Git"       : "lib/Distribution/IO/Proc/Git.rakumod",
+        "Distribution::IO::Proc::Tar"       : "lib/Distribution/IO/Proc/Tar.rakumod"
     },
     "depends"     : [ ],
+    "test-depends"  : [ "Test:ver<6.c+>" ],
     "support"     : {
-        "bugtracker" : "https://github.com/ugexe/Perl6-Distribution--Common/issues",
-        "source"     : "https://github.com/ugexe/Perl6-Distribution--Common.git"
+        "bugtracker" : "https://github.com/ugexe/Raku-Distribution--Common/issues",
+        "source"     : "https://github.com/ugexe/Raku-Distribution--Common.git"
     }
 }
