@@ -17,6 +17,7 @@
         "Distribution::IO::Proc::Tar"       : "lib/Distribution/IO/Proc/Tar.rakumod"
     },
     "depends"     : [ ],
+    "test-depends"  : [ "Test:ver<6.c+>" ],
     "support"     : {
         "bugtracker" : "https://github.com/ugexe/Raku-Distribution--Common/issues",
         "source"     : "https://github.com/ugexe/Raku-Distribution--Common.git"
